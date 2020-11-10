@@ -53,7 +53,7 @@ body {
 
 #homeinfo {
   font-size: 1.15em;
-  margin: 2px;
+  margin: 1em;
 }
 
 #quote {
@@ -81,17 +81,30 @@ input{
   font-size: 1em;
   margin: 0.6em;
   color: black;
-  padding: 12px 20px;
-  width: 80%
+  width: 80%;
 }
 
+.inspirational{
+  margin-left: auto;
+}
+
+.formEnter{
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+body{
+  max-width: 1000px;
+  margin: auto;
+}
 /*Media Query for tablet*/
 
 @media only screen and (min-width: 600px) {
   #navbar-container ul {
     list-style-type: none;
     margin: 0;
-    $wa padding: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #0064c2;
     display: inline-block;
@@ -117,6 +130,14 @@ input{
   #navbar-container ul li a.active {
     background-color: #63beff;
     color: white;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body{
+    max-width: 1000px;
+    margin: auto;
   }
 
 
@@ -158,5 +179,19 @@ input{
   }
   #welcome {
     font-size: 1.5em;
+  }
+  .inspirational{
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    max-width: 1000px;
+    margin: auto;  
   }
 }
