@@ -31,12 +31,16 @@
       }
       
       #navbar-container ul li a.active {
-        background-color: #63beff;
+        background-color: grey;
         color: white;
       }
       h3{
         font-size: 1.7em;
         font-weight: bold;
+      }
+
+      body{
+        text-align: center;
       }
 }
 
