@@ -48,8 +48,9 @@
 
       body{
         background-color: lightskyblue;
+        font-size: 1.15em;
       }
-      
+
       #homeinfo{
           font-size: 1.15em;
           margin: 2px;
