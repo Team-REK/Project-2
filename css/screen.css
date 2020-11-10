@@ -38,9 +38,10 @@
       h3{
         font-size: 1.7em;
         font-weight: bold;
+        margin: 0.5em;
       }
-      #content{
-        text-align: center;
+
+      .content{
         max-width: 1000px;
         margin: auto;
       }
