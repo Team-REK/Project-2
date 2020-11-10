@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hasjs">
+
 <head>
-    <meta charset="UTF-8">
     <title>Conference</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=1000"/>
-    <link rel="stylesheet" media="screen" href="reset.css" />
+    <link rel="stylesheet" media="screen" href="css/reset.css" />
     <link rel="stylesheet" media= "screen" href="css/screen.css"/>
+    <script async src="js/script.js"></script>
 </head>
+
 <body>
     <div id="navbar-container">
         <nav>
           <ul class="nav">
-            <li> <a href= "index.html"> Home </a></li>
-            <li> <a href= "aboutUs.html"> About us </a></li>
-            <li> <a href= "conference.html" class="active"> Conference</a></li>
+            <li> <a href="index.html"> Home </a></li>
+            <li> <a href="aboutUs.html"> About us </a></li>
+            <li> <a href="conference.html" class="active"> Conference</a></li>
           </ul>
         </nav>
     </div>
     <p class="inspirational">
         “In a time of social division, unity is essential”
     </p>
-    <div class="newPictures">
+    <div class="img">
         <img src="media/vienna.jpg">
-        <img src="media/foods.jpg">
     </div>
+
     <h1>Reasons to join us!</h1>
     <ul>
         <li>You will be able to learn about other's perspectives</li>
@@ -32,16 +35,24 @@
         <li>Guest speakers such as esteemed anthropologists</li>
         <li>A nice complementary meal</li>
     </ul>
-    <form action="/action_page.php" method="get" autocomplete = on>
+    <form action="#null" method="post" autocomplete = "on">
         <label for="name">First Name:</label>
-        <input type="text" id="name" name="name" placeholder="Join">
+        <div class="formEnter">
+            <input type="text" id="name" name="name" placeholder="Join">
+        </div>
         <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" placeholder="us">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" placeholder="now!">
-        <button type="button">To Vienna</button>
+        <div class="formEnter">
+            <input type="text" id="lastName" name="lastName" placeholder="us">
+        </div>
+        <label for="email">E-Mail:</label>
+        <div class="formEnter">
+            <input type="text" id="email" name="email" placeholder="now!">
+        </div>
+        <div class="formEnter">
+            <input id="button" type="button" value="To Vienna!"></input>
+        </div>
     </form>
-    <div class="oldPictures">
+    <div class="img">
         <h2>Pictures of our conference in 2016</h2>
         <img src="media/attention.webp">
         <img src="media/MR.Dattilo.webp">
