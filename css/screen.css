@@ -1,10 +1,85 @@
 /*Media Query for mobile phones*/
 
-@media only screen and (min-width: 480px) {
+#navbar-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0064c2;
+  display: inline-block;
+  width: 100%;
+}
+
+#navbar-container ul li {
+  float: left;
+  position: relative;
+  width: 33.33%;
+}
+
+#navbar-container ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar-container ul li a:hover {
+  background-color: #63beff;
+}
+
+#navbar-container ul li a.active {
+  background-color: #63beff;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.5em 0em;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+body {
+  background-color: lightskyblue;
+  font-size: 1.15em;
+}
+
+#homeinfo {
+  font-size: 1.15em;
+  margin: 2px;
+}
+
+#quote {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0.5em 0em;
+}
+
+#welcome {
+  font-size: 1em;
+  margin: 0.5px;
+}
+
+#questions {
+  margin: 0.4em 0;
+}
+
+
+/*Media Query for tablet*/
+
+@media only screen and (min-width: 600px) {
   #navbar-container ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    $wa padding: 0;
     overflow: hidden;
     background-color: #0064c2;
     display: inline-block;
@@ -31,106 +106,45 @@
     background-color: #63beff;
     color: white;
   }
-  h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0.5em 0em;
+
+
+/*Media Query for desktop*/
+
+@media only screen and (min-width: 992px) {
+  #navbar-container ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #0064c2;
+    display: inline-block;
+    width: 100%;
   }
-  .content {
-    max-width: 1000px;
-    margin: auto;
+  #navbar-container ul li {
+    float: left;
+    position: relative;
+    width: 33.33%;
   }
-  body {
-    background-color: lightskyblue;
-    font-size: 1.15em;
+  #navbar-container ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  #homeinfo {
-    font-size: 1.15em;
-    margin: 2px;
+  #navbar-container ul li a:hover {
+    background-color: #63beff;
+  }
+  #navbar-container ul li a.active {
+    background-color: #63beff;
+    color: white;
   }
   #quote {
-    font-size: 1em;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0.5em 0em;
+    font-size: 1.5em;
   }
   #welcome {
-    font-size: 1em;
-    margin: 0.5px;
-  }
-  #questions {
-    margin: 0.4em 0;
-  }
-  /*Media Query for tablet*/
-  @media only screen and (min-width: 600px) {
-    #navbar-container ul {
-      list-style-type: none;
-      margin: 0;
-      $wa padding: 0;
-      overflow: hidden;
-      background-color: #0064c2;
-      display: inline-block;
-      width: 100%;
-    }
-    #navbar-container ul li {
-      float: left;
-      position: relative;
-      width: 33.33%;
-    }
-    #navbar-container ul li a {
-      display: block;
-      text-decoration: none;
-      color: #fff;
-      padding: 20px 20px;
-      text-align: center;
-      font-size: 2em;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    #navbar-container ul li a:hover {
-      background-color: #63beff;
-    }
-    #navbar-container ul li a.active {
-      background-color: #63beff;
-      color: white;
-    }
-  }
-  /*Media Query for desktop*/
-  @media only screen and (min-width: 992px) {
-    #navbar-container ul {
-      list-style-type: none;
-      margin: 0em;
-      padding: 0em;
-      overflow: hidden;
-      background-color: #0064c2;
-      display: inline-block;
-      width: 100%;
-    }
-    #navbar-container ul li {
-      float: left;
-      position: relative;
-      width: 33.33%;
-    }
-    #navbar-container ul li a {
-      display: block;
-      text-decoration: none;
-      color: #fff;
-      padding: 20px 20px;
-      text-align: center;
-      font-size: 2em;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    #navbar-container ul li a:hover {
-      background-color: #63beff;
-    }
-    #navbar-container ul li a.active {
-      background-color: #63beff;
-      color: white;
-    }
-    #quote {
-      font-size: 1.5em;
-    }
-    #welcome {
-      font-size: 1.5em;
-    }
+    font-size: 1.5em;
   }
 }
