@@ -1,6 +1,39 @@
 /*Media Query for mobile phones*/
 @media only screen and (min-width: 480px) {
-
+    #navbar-container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+        display: inline-block;
+        width: 100%;
+      }
+      
+      #navbar-container ul li {
+        float: left;
+        position: relative;
+        width: 33.33%;
+      }
+      
+      #navbar-container ul li a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 20px;
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Bangers', cursive;
+      }
+      
+      #navbar-container ul li a:hover {
+        background-color: #000;
+      }
+      
+      #navbar-container ul li a.active {
+        background-color: #000;
+        color: white;
+      }
 }
 
 /*Media Query for tablet*/
@@ -8,7 +41,14 @@
 
 }
 
-/*Media Query for tablet*/
+/*Media Query for desktop*/
 @media only screen and (min-width: 992px) {
 
+}
+
+#quote{
+    font-size: 2.25em;
+}
+#welcome{
+    font-size: 2.25em;
 }
