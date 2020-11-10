@@ -36,7 +36,7 @@
       }
 
       h3{
-        font-size: 1.15em;
+        font-size: 1.5em;
         font-weight: bold;
         margin: 0.5em 0em;
       }
@@ -48,20 +48,21 @@
 
       body{
         background-color: lightskyblue;
-        font-size: 1.2em;
+        font-size: 1.15em;
       }
+
       #homeinfo{
           font-size: 1.15em;
           margin: 2px;
       }
       #quote {
           font-size: 1.5em;
-          font-style: bold;
+          font-weight: bold;
           font-family: 'Times New Roman', Times, serif;
-          margin: 2px;
+          margin: 0.5em 0em;
       }
       #welcome{
-          font: 1em;
+          font-size: 0.25em;
           margin: 2px;
       }
 
