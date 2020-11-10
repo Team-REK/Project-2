@@ -49,6 +49,9 @@
       body{
         background-color: lightskyblue;
       }
+      #quote{
+          align-content: center;
+      }
 }
 
 /*Media Query for tablet*/
