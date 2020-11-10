@@ -7,7 +7,7 @@
         overflow: hidden;
         background-color: #0064c2;
         display: inline-block;
-        width: 100%;
+        width: 50%;
       }
       
       #navbar-container ul li {
@@ -64,7 +64,7 @@
 
     #welcome{
         font-size: 1em;
-        margin: 2px;
+        margin: 0.5px;
     }
     #questions{
         margin: 0.4em 0;
@@ -72,12 +72,79 @@
 
 /*Media Query for tablet*/
 @media only screen and (min-width: 600px) {
-
+    #navbar-container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0064c2;
+        display: inline-block;
+        width: 100%;
+      }
+      
+      #navbar-container ul li {
+        float: left;
+        position: relative;
+        width: 33.33%;
+      }
+      
+      #navbar-container ul li a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 20px;
+        text-align: center;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      #navbar-container ul li a:hover {
+        background-color: #63beff;
+      }
+      
+      #navbar-container ul li a.active {
+        background-color: #63beff;
+        color: white;
+      }
 }
 
 /*Media Query for desktop*/
 @media only screen and (min-width: 992px) {
-#quote{
+    #navbar-container ul {
+        list-style-type: none;
+        margin: 0.5em;
+        padding: 0.5em;
+        overflow: hidden;
+        background-color: #0064c2;
+        display: inline-block;
+        width: 100%;
+      }
+      
+      #navbar-container ul li {
+        float: left;
+        position: relative;
+        width: 33.33%;
+      }
+      
+      #navbar-container ul li a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 20px;
+        text-align: center;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      #navbar-container ul li a:hover {
+        background-color: #63beff;
+      }
+      
+      #navbar-container ul li a.active {
+        background-color: #63beff;
+        color: white;
+      }
+    #quote{
     font-size: 1.5em;
 }
 #welcome{
