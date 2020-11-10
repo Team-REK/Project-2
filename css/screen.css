@@ -27,11 +27,11 @@
       }
       
       #navbar-container ul li a:hover {
-        background-color: #0064c2;
+        background-color: #63beff;
       }
       
       #navbar-container ul li a.active {
-        background-color: #0064c2;
+        background-color: #63beff;
         color: white;
       }
 }
