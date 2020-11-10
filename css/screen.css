@@ -34,6 +34,10 @@
         background-color: #63beff;
         color: white;
       }
+      h3{
+        font-size: 1.2em;
+        font-weight: 100;
+      }
 }
 
 /*Media Query for tablet*/
