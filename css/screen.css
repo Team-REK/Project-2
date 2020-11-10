@@ -48,10 +48,12 @@
 
       body{
         background-color: lightskyblue;
+        font-size: 1.2em;
       }
       #homeinfo{
           font-size: 2em;
-      }
+
+      
 }
 
 /*Media Query for tablet*/
