@@ -62,13 +62,13 @@
           margin: 0.5em 0em;
       }
 
-      #welcome{
-          font-size: 0.25em;
-          margin: 2px;
-      }
-      #questions{
+    #welcome{
+        font-size: 2em;
+        margin: 2px;
+    }
+    #questions{
         margin: 0.4em 0;
-      }
+    }
 
 /*Media Query for tablet*/
 @media only screen and (min-width: 600px) {
@@ -81,6 +81,6 @@
 }
 
 #quote{
-    font-size: 2.25em;
+    font-size: 1.15em;
 }
 }
