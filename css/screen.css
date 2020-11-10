@@ -86,6 +86,10 @@ input{
 
 .inspirational{
   margin-left: auto;
+  font-family: 'Amaranth';
+  font-size: 32px;
+  padding-top: 40px;
+  padding-bottom: 45px;
 }
 
 .formEnter{
@@ -97,6 +101,32 @@ input{
 body{
   max-width: 1000px;
   margin: auto;
+}
+
+.bigImg{
+    max-width:85%;
+    height:auto;
+    margin:auto;
+    padding-bottom:30px;
+}
+
+h1{
+  font-family: 'Amaranth';
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 /*Media Query for tablet*/
 
@@ -194,5 +224,6 @@ body{
     max-width: 1000px;
     margin: auto;
   }
+
 }
 }
