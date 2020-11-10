@@ -48,7 +48,9 @@
 
       body{
         background-color: lightskyblue;
+        font-size: 1.2em;
       }
+
       #quote{
           align-content: center;
       }
