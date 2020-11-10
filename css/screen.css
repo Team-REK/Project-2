@@ -112,8 +112,8 @@
 @media only screen and (min-width: 992px) {
     #navbar-container ul {
         list-style-type: none;
-        margin: 0.5em;
-        padding: 0.5em;
+        margin: 0em;
+        padding: 0em;
         overflow: hidden;
         background-color: #0064c2;
         display: inline-block;
