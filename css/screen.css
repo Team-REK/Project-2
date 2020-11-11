@@ -92,6 +92,11 @@ input{
   padding-bottom: 45px;
 }
 
+form{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
 .formEnter{
   justify-content: center;
   max-width: 1000px;
@@ -113,20 +118,19 @@ body{
 h1{
   font-family: 'Amaranth';
   font-size: 22px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 
 .column{
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 5px;
 }
 
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
+.listItems{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
 }
 /*Media Query for tablet*/
 
