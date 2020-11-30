@@ -44,12 +44,15 @@ h3 {
 
 .content {
   max-width: 1000px;
-  margin: auto;
+  margin: 25px;
 }
 
 body {
   background-color: lightskyblue;
+  max-width: 1000px;
   font-size: 1.15em;
+  font-size: 1.15em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #homeinfo {
@@ -95,10 +98,6 @@ input{
   margin: auto;
 }
 
-body{
-  max-width: 1000px;
-  margin: auto;
-}
 /*Media Query for tablet*/
 
 @media only screen and (min-width: 600px) {
@@ -195,6 +194,7 @@ body{
   body{
     max-width: 1000px;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 }
