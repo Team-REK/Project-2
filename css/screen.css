@@ -37,14 +37,11 @@ h3 {
 }
 .content {
   max-width: 1000px;
-  margin: 25px;
+  margin: auto;
 }
 body {
   background-color: lightskyblue;
-  max-width: 1000px;
   font-size: 1.15em;
-  font-size: 1.15em;
-  font-family: 'Montserrat', sans-serif;
 }
 #homeinfo {
   font-size: 1.15em;
@@ -88,6 +85,32 @@ form{
   justify-content: center;
   max-width: 1000px;
   margin: auto;
+}
+
+body{
+  max-width: 1000px;
+  margin: auto;
+}
+.bigImg{
+  max-width:85%;
+  height:auto;
+  margin:auto;
+  padding-bottom:30px;
+}
+h1{
+  font-family: 'Amaranth';
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.column{
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+.listItems{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
 }
 /*Media Query for tablet*/
 @media only screen and (min-width: 600px) {
@@ -182,7 +205,6 @@ form{
   body{
     max-width: 1000px;
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
   }
 }
 }
