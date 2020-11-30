@@ -1,5 +1,4 @@
 /*Media Query for mobile phones*/
-
 #navbar-container ul {
   list-style-type: none;
   margin: 0;
@@ -9,13 +8,11 @@
   display: inline-block;
   width: 100%;
 }
-
 #navbar-container ul li {
   float: left;
   position: relative;
   width: 33.33%;
 }
-
 #navbar-container ul li a {
   display: block;
   text-decoration: none;
@@ -25,65 +22,53 @@
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 #navbar-container ul li a:hover {
   background-color: #63beff;
 }
-
 #navbar-container ul li a.active {
   background-color: #63beff;
   color: white;
 }
-
 h3 {
   font-size: 1.5em;
   font-weight: bold;
   margin: 0.5em 0em;
 }
-
 .content {
   max-width: 1000px;
   margin: auto;
 }
-
 body {
   background-color: lightskyblue;
   font-size: 1.15em;
 }
-
 #homeinfo {
   font-size: 1.15em;
   margin: 1em;
 }
-
 #quote {
   font-size: 1em;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   margin: 0.5em 0em;
 }
-
 #welcome {
   font-size: 1em;
   margin: 0.5px;
 }
-
 #questions {
   margin: 0.4em 0;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 input{
   font-size: 1em;
   margin: 0.6em;
   color: black;
   width: 80%;
 }
-
 .inspirational{
   margin-left: auto;
   font-family: 'Amaranth';
@@ -91,12 +76,10 @@ input{
   padding-top: 40px;
   padding-bottom: 45px;
 }
-
 form{
   padding-top:40px;
   padding-bottom:40px;
 }
-
 .formEnter{
   justify-content: center;
   max-width: 1000px;
@@ -107,33 +90,28 @@ body{
   max-width: 1000px;
   margin: auto;
 }
-
 .bigImg{
-    max-width:85%;
-    height:auto;
-    margin:auto;
-    padding-bottom:30px;
+  max-width:85%;
+  height:auto;
+  margin:auto;
+  padding-bottom:30px;
 }
-
 h1{
   font-family: 'Amaranth';
   font-size: 22px;
   padding-top: 20px;
   padding-bottom: 15px;
 }
-
 .column{
   float: left;
   width: 45%;
   padding: 5px;
 }
-
 .listItems{
-    font-family: 'Montserrat', sans-serif;
-    font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
 }
 /*Media Query for tablet*/
-
 @media only screen and (min-width: 600px) {
   #navbar-container ul {
     list-style-type: none;
@@ -173,8 +151,6 @@ h1{
     max-width: 1000px;
     margin: auto;
   }
-
-
 /*Media Query for desktop*/
 
 @media only screen and (min-width: 992px) {
@@ -228,6 +204,5 @@ h1{
     max-width: 1000px;
     margin: auto;
   }
-
 }
 }
