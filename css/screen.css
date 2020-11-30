@@ -65,7 +65,7 @@ img {
 }
 input{
   font-size: 1em;
-  margin: 0.6em;
+  margin: 0.8em;
   color: black;
   width: 80%;
 }
@@ -203,6 +203,9 @@ h1{
   body{
     max-width: 1000px;
     margin: auto;
+  }
+  input{
+  width:35%;
   }
 }
 }
