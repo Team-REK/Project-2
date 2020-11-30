@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*Media Query for mobile phones*/
 #navbar-container ul {
   list-style-type: none;
@@ -150,6 +151,7 @@ h1{
   body{
     max-width: 1000px;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
   }
 /*Media Query for desktop*/
 
