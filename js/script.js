@@ -1,4 +1,6 @@
 function init() {
+  var d = new Date();
+  document.getElementById("date").innerHTML = d;
   var button = document.getElementById("button");
   button.addEventListener("click", function buttonPress() {
       var name = document.getElementById("name").value;

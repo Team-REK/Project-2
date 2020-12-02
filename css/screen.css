@@ -124,6 +124,9 @@ h1{
   margin-left: auto;
   margin-right: auto;
 }
+#date{
+  padding-top:15px;
+}
 /*Media Query for tablet*/
 @media only screen and (min-width: 600px) {
     #navbar-container ul {
